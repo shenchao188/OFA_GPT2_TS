@@ -1,0 +1,92 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="278" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="1" class="java.lang.String" itemvalue="mia" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.gen_hidden" />
+          <option value="tuple.batch_size" />
+          <option value="tuple.gen_hidden_layers" />
+          <option value="tuple.gen_out_dim" />
+          <option value="tuple.class_hidden_layersn" />
+          <option value="tuple.class_hidden_layers" />
+          <option value="tuple.lr" />
+          <option value="tuple.step_size" />
+          <option value="tuple.gamma" />
+          <option value="tuple.class_threshold" />
+          <option value="tuple.M" />
+          <option value="tuple.share_layers_hidden" />
+          <option value="tuple.share_layer_outdim" />
+          <option value="tuple.epochs" />
+          <option value="tuple.weight_physics" />
+          <option value="tuple.dt" />
+          <option value="tuple.message" />
+          <option value="tuple.W_tran_sta" />
+          <option value="tuple.W_eq2" />
+          <option value="tuple.W_eq1" />
+          <option value="tuple.Loss_weight" />
+          <option value="tuple.expert_out_dim" />
+          <option value="tuple.expert_hidden_layer" />
+          <option value="tuple.p_expert" />
+          <option value="tuple.use_gate" />
+          <option value="tuple.n_expert" />
+          <option value="tuple.n_task" />
+          <option value="tuple.expert_hidden_layers" />
+          <option value="tuple.tower_hidden_layers" />
+          <option value="tuple.task_output_dim" />
+          <option value="int.backward" />
+          <option value="tuple.device" />
+          <option value="bool.float" />
+          <option value="tuple.losses_name" />
+          <option value="tuple.W_ome_mar" />
+          <option value="tuple.fine_tune_epoch" />
+          <option value="tuple.corrector_hidden_layers" />
+          <option value="tuple.corrector_epochs" />
+          <option value="tuple.backward" />
+          <option value="tuple.omega_threshold" />
+          <option value="tuple.W_corrector" />
+          <option value="tuple.n_centers" />
+          <option value="tuple.num_center" />
+          <option value="tuple.size" />
+          <option value="tuple.D" />
+          <option value="tuple.lamda" />
+          <option value="tuple.hidden_layers" />
+          <option value="tuple.share_layers" />
+          <option value="tuple.share_output" />
+          <option value="tuple.task_hidden_layers" />
+          <option value="tuple.ft_epochs" />
+          <option value="tuple.connect_buses" />
+          <option value="tuple.B" />
+          <option value="tuple.scaling_factor" />
+          <option value="tuple.y" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

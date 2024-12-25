@@ -35,7 +35,7 @@ class HourOfDay(TimeFeature):
     """Hour of day encoded as value between [-0.5, 0.5]"""
 
     def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:
-        return index.hour / 23.0 - 0.5
+        return index.hour / 23.0 - 0.5 # 需要
 
 
 class DayOfWeek(TimeFeature):
@@ -111,7 +111,7 @@ def time_features_from_frequency_str(freq_str: str) -> List[TimeFeature]:
 
     for offset_type, feature_classes in features_by_offsets.items():
         if isinstance(offset, offset_type):
-            return [cls() for cls in feature_classes]
+            return [cls() for cls in feature_classes]# 创建类
 
     supported_freq_msg = f"""
     Unsupported frequency {freq_str}

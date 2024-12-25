@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="41bd145b-3d90-447c-9c9a-d6fe82933d3d" name="OFA_GPT_TS_power_system">
+        <fileTransfer accessType="SFTP" host="10.181.108.30" port="20350" sshConfigId="59713bc3-4f55-499e-a882-7f3001516b7f" sshConfig="root@10.181.108.30:20350 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

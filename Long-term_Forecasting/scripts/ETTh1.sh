@@ -3,6 +3,7 @@ export CUDA_VISIBLE_DEVICES=0
 
 seq_len=336
 model=GPT4TS
+gpt_layer=6
 
 for percent in 100
 do

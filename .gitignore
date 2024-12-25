@@ -10,3 +10,9 @@ Zero-shot_Learning/datasets
 *__pycache__*
 *.ipynb_checkpoints*
 */.DS_Store
+*.csv
+*.pkl
+*.pth
+*.bin
+local_gpt2/
+Long-term_Forecasting/pretrained_model/local_gpt2/pytorch_model.bin
